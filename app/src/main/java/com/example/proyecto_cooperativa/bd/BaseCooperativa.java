@@ -11,12 +11,13 @@ public class BaseCooperativa extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION =1;
     private static final String DATABASE_NOMBRE = "cooperativa.db";
 
-
+    //tablas
     public static final String TABLE_AGRICULTORES = "t_agricultores";
     public static final String TABLE_CLIENTES = "t_clientes";
     public static final String TABLE_VENTAS = "t_ventas";
     public static final String TABLE_MERCANCIAS = "t_mercancias";
     public static final String TABLE_USUARIOS = "t_usuarios";
+
 
     public BaseCooperativa(@Nullable Context context) {
         super(context, DATABASE_NOMBRE, null, DATABASE_VERSION);
