@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_difuminado1"
+    android:orientation="vertical"
+    tools:context=".MenuPrincipal">
+
+
+  <TableLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="250dp"
+          android:layout_height="match_parent"
+          app:cardBackgroundColor="#22FFA000"
+          app:cardCornerRadius="15dp"
+          app:cardPreventCornerOverlap="true"
+          app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/textViewNoticias"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:fontFamily="@font/acme"
+              android:text="@string/descripcion_noticias"
+              android:textStyle="bold" />
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/logo_noticias" />
+
+            <Button
+                android:id="@+id/btn_noticias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:fontFamily="@font/acme"
+                android:onClick="iraNoticias"
+                android:text="@string/btn_noticias"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:cornerRadius="20dp" />
+
+          </LinearLayout>
+
+        </LinearLayout>
+
+
+      </androidx.cardview.widget.CardView>
+    </TableRow>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          app:cardBackgroundColor="#22FFA000"
+          app:cardCornerRadius="15dp"
+          app:cardPreventCornerOverlap="true"
+          app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/textViewAgricultores"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/descripcion_zonas"
+              android:textStyle="bold"
+              android:fontFamily="@font/acme"/>
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+            <Space
+                android:layout_width="18dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/zonas" />
+
+            <Button
+                android:id="@+id/btn_verZonas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:onClick="onClick"
+                android:text="@string/btn_zonasAgricolas"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:cornerRadius="20dp" />
+
+          </LinearLayout>
+
+        </LinearLayout>
+
+
+      </androidx.cardview.widget.CardView>
+    </TableRow>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          app:cardBackgroundColor="#22FFA000"
+          app:cardCornerRadius="15dp"
+          app:cardPreventCornerOverlap="true"
+          app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/textViewClientes"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/descripcion_agricultoresMercancias"
+              android:textStyle="bold"
+              android:fontFamily="@font/acme"/>
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/mercancias" />
+
+            <Button
+                android:id="@+id/btn_verAgricultoresMercancias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:onClick="onClick"
+                android:text="@string/btn_agricultoresMercancias"
+                android:textSize="10sp"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:textStyle="bold"
+                app:cornerRadius="20dp" />
+
+          </LinearLayout>
+
+        </LinearLayout>
+
+
+      </androidx.cardview.widget.CardView>
+    </TableRow>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          app:cardBackgroundColor="#22FFA000"
+          app:cardCornerRadius="15dp"
+          app:cardPreventCornerOverlap="true"
+          app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/textViewMercancias"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:fontFamily="@font/acme"
+              android:text="@string/descripcion_clientesVentas"
+              android:textStyle="bold" />
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ventas" />
+
+            <Button
+                android:id="@+id/btn_verClientesVentas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:onClick="onClick"
+                android:text="@string/btn_clientesVentas"
+                android:textSize="10sp"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:textStyle="bold"
+                app:cornerRadius="20dp" />
+
+          </LinearLayout>
+
+        </LinearLayout>
+
+
+      </androidx.cardview.widget.CardView>
+    </TableRow>
+
+
+  </TableLayout>
+</LinearLayout>

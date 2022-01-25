@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/fondoazuldifuminado"
+    tools:context=".registro.loginUsuario">
+
+
+    <ImageView
+        android:id="@+id/imagenLogar"
+        android:layout_width="224dp"
+        android:layout_height="87dp"
+        android:layout_marginLeft="71dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/acceso" />
+
+    <TextView
+        android:id="@+id/textviewolvidocontra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagenLogar"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:gravity="center"
+        android:text="@string/txt_Login"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/txtusuarioLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagenLogar"
+        android:layout_marginTop="50dp"
+        android:hint="usuario"
+        android:textSize="15dp"
+        />
+
+    <EditText
+        android:id="@+id/txtpasswordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txtusuarioLogin"
+        android:textSize="15dp"
+        android:hint="password"/>
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_logarse"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:layout_below="@+id/txtpasswordLogin"/>
+
+
+</RelativeLayout>

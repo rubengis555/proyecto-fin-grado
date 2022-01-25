@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Proyecto_Cooperativa</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_listaAgricultores">Lista Agricultores</string>
+    <string name="btn_listaMercancias">Lista Mercancias</string>
+    <string name="btn_listaClientes">Lista Clientes</string>
+    <string name="btn_listaVentas">Lista Ventas</string>
+    <string name="btn_noticias">Noticias</string>
+    <string name="btn_verAgricultores">Agricultores</string>
+    <string name="btn_insertarAgricultores">Nuevo Agricultor</string>
+    <string name="btn_verMercancias">Mercancias</string>
+    <string name="btn_insertarMercancias">Nueva Mercancia</string>
+    <string name="btn_verCliente">Clientes</string>
+    <string name="btn_insertarClientes">Nuevo Cliente</string>
+    <string name="btn_verVentas">Ventas</string>
+    <string name="btn_insertarVentas">Nueva Venta</string>
+    <string name="btn_datosEconomicos">Datos Economicos</string>
+    <string name="btn_zonasAgricolas">Zonas Agrícolas</string>
+    <string name="btn_agricultoresMercancias">Agricultores/Mercancias</string>
+    <string name="btn_clientesVentas">Clientes/Ventas</string>
+    <string name="btn_Ver">Ver Resultados</string>
+    <string name="btn_registro">Registrar</string>
+    <string name="btn_logar">Ya tengo cuenta</string>
+    <string name="btn_logarse">Logar</string>
+    <string name="btn_reseteoContrasena">Resetear contraseña</string>
+    <string name="btn_confirmar">Confirmar</string>
+
+    <string name="descripcion_noticias">Noticias de Agricultura</string>
+    <string name="descripcion_zonas">Zonas Agrícolas</string>
+    <string name="descripcion_agricultoresMercancias">Agricultores y Mercancias Recibidas</string>
+    <string name="descripcion_clientesVentas">Clientes y Ventas Realizadas</string>
+    <string name="descripcion_ventas">Ventas Realizadas</string>
+
+    <string name="txt_dni">DNI:</string>
+    <string name="txt_nombres">Nombre:</string>
+    <string name="txt_direccion">Direccion:</string>
+    <string name="txt_telefono">Telefono:</string>
+    <string name="txt_correo">Correo:</string>
+    <string name="txt_zonas">Zonas:</string>
+    <string name="txt_Agricultor_Mercancia">Agricultores/Mercancias</string>
+    <string name="txt_factura">Factura:</string>
+    <string name="txt_producto">Producto:</string>
+    <string name="txt_cantidad">Cantidad:</string>
+    <string name="txt_precio">Importe:</string>
+    <string name="txt_agricultor">Agricultor:</string>
+    <string name="txt_Cliente">Cliente:</string>
+    <string name="txt_FacturasAgricultor">Facturas por Agricultor:</string>
+    <string name="txt_FacturasTotal">Importe total Mercancias:</string>
+    <string name="txt_FacturasCliente">Facturas por Cliente</string>
+    <string name="txt_FacturasTotalVentas">Importe total Ventas:</string>
+    <string name="txt_OlvidoContrasena">Reestablecer la contraseña</string>
+    <string name="txt_Registro">Registrarse</string>
+    <string name="txt_Reseteo">Reseteo</string>
+    <string name="txt_Login">Login</string>
+    <string name="txt_Modificacion">Modificacion</string>
+    <string name="txt_nombreUsuario">Introduzca el nombre de usuario:</string>
+    <string name="txt_titulo">COOPADMIN</string>
+
+
+    <string name="hint_dni">Introduzca el DNI</string>
+    <string name="hint_nombre">Escriba el Nombre</string>
+    <string name="hint_direccion">Escriba la Dirección</string>
+    <string name="hint_telefono">Introduzca el Telefono:</string>
+    <string name="hint_correo">Introduzca el Correo</string>
+    <string name="hint_factura">Número de factura</string>
+    <string name="hint_producto">Nombre del producto</string>
+    <string name="hint_cantidad">Introduzca la cantidad</string>
+    <string name="hint_precio">Introduzca el Importe</string>
+
+
+</resources>

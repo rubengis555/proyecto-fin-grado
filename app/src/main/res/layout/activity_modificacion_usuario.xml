@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/fondoazuldifuminado"
+    tools:context=".registro.modificacionUsuario">
+
+    <ImageView
+        android:id="@+id/imagenModificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:src="@drawable/modify" />
+
+    <TextView
+        android:id="@+id/textviewModificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagenModificacion"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:gravity="center"
+        android:text="@string/txt_Modificacion"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewModificacion"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+         />
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usuario"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:hint="password"
+        android:textSize="15dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/txtrepassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtpassword"
+        android:layout_marginTop="20dp"
+
+        android:hint="Reintroduzca el password"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btn_confirmacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_confirmar"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txtrepassword"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textSize="15dp"/>
+
+</RelativeLayout>

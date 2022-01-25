@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_difuminado1"
+    tools:context=".agricultor.detalleAgricultor">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/viewFactura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/txt_factura"
+                android:fontFamily="@font/acme"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/txtFactura"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:labelFor="@+id/viewFactura"
+                android:textSize="13dp"
+                android:fontFamily="@font/acme"
+                android:background="@drawable/stylo_borde_editext"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/viewProducto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/txt_producto"
+                android:fontFamily="@font/acme"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/txtProducto"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:labelFor="@+id/viewProducto"
+                android:textSize="13dp"
+                android:fontFamily="@font/acme"
+                android:background="@drawable/stylo_borde_editext"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/viewCantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/txt_cantidad"
+                android:fontFamily="@font/acme"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/txtCantidad"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:labelFor="@+id/viewCantidad"
+                android:textSize="13dp"
+                android:fontFamily="@font/acme"
+                android:background="@drawable/stylo_borde_editext"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/viewPrecio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/txt_precio"
+                android:fontFamily="@font/acme"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/txtPrecio"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:labelFor="@+id/viewPrecio"
+                android:inputType="numberDecimal"
+                android:textSize="13dp"
+                android:fontFamily="@font/acme"
+                android:background="@drawable/stylo_borde_editext"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/viewNombreCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/txt_Cliente"
+                android:fontFamily="@font/acme"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/txtNombreCliente"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:labelFor="@+id/viewNombreCliente"
+                android:inputType="numberDecimal"
+                android:textSize="13dp"
+                android:fontFamily="@font/acme"
+                android:background="@drawable/stylo_borde_editext"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/viewNombreClienteSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/txt_Cliente"
+                android:fontFamily="@font/acme"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Spinner
+            android:id="@+id/spinnerCliente"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+                android:textSize="13dp"
+                android:fontFamily="@font/acme"
+                android:background="@drawable/stylo_borde_editext"
+            tools:ignore="SpeakableTextPresentCheck" />
+        </TableRow>
+    </TableLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/btnGuarda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textSize="12dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:text="@string/btn_guardar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="230dp"
+                    android:layout_height="10dp"
+                    />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabEditar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:clickable="true"
+                    android:src="@drawable/ic_editar"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabEliminar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginRight="5dp"
+                    android:clickable="true"
+                    android:src="@drawable/ic_eliminar"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+</LinearLayout>

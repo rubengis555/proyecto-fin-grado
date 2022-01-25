@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/fondo_difuminado1"
+    tools:context=".ventas.principalClientesVentas">
+
+
+    <ImageView
+        android:id="@+id/imagenCliente"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/ventas" />
+
+    <Button
+        android:id="@+id/btn_nuevoCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagenCliente"
+        android:layout_weight="1"
+        android:layout_marginTop="35dp"
+        android:text="@string/btn_insertarClientes"
+        android:textAllCaps="false"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/btn_listaClientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_nuevoCliente"
+        android:text="@string/btn_listaClientes"
+        android:textAllCaps="false"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textSize="12dp"
+        />
+
+    <Button
+        android:id="@+id/btn_nuevaVenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_listaClientes"
+        android:layout_weight="1"
+        android:text="@string/btn_insertarVentas"
+        android:textAllCaps="false"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textSize="12dp"
+        />
+
+    <Button
+        android:id="@+id/btn_listaVentas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_below="@+id/btn_nuevaVenta"
+        android:text="@string/btn_listaVentas"
+        android:textAllCaps="false"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textSize="12dp"
+        />
+
+    <Button
+        android:id="@+id/btn_datosEconomicos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12dp"
+        android:text="@string/btn_datosEconomicos"
+        android:layout_below="@+id/btn_listaVentas"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textAllCaps="false"
+        />
+</RelativeLayout>

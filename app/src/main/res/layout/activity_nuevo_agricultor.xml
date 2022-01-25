@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_difuminado1"
+    tools:context=".agricultor.NuevoAgricultor">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/txt_dni"
+                android:fontFamily="@font/acme"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtDni"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:hint="@string/hint_dni"
+                android:textSize="13dp"
+                android:fontFamily="@font/acme"
+                android:background="@drawable/stylo_borde_editext"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_nombres"
+                android:fontFamily="@font/acme"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:layout_marginLeft="5dp"/>
+
+            <EditText
+                android:id="@+id/txtNombre"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:hint="@string/hint_nombre"
+                android:fontFamily="@font/acme"
+                android:textSize="13dp"
+                android:background="@drawable/stylo_borde_editext"
+                android:inputType="textPersonName" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_direccion"
+                android:textSize="13dp"
+                android:fontFamily="@font/acme"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"/>
+
+            <EditText
+                android:id="@+id/txtDireccion"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:textSize="13dp"
+                android:fontFamily="@font/acme"
+                android:background="@drawable/stylo_borde_editext"
+                android:hint="@string/hint_direccion"
+                android:inputType="textPersonName" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_telefono"
+                android:textSize="13dp"
+                android:fontFamily="@font/acme"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"/>
+
+            <EditText
+                android:id="@+id/txtTelefono"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:textSize="13dp"
+                android:fontFamily="@font/acme"
+                android:background="@drawable/stylo_borde_editext"
+                android:hint="@string/hint_telefono"
+                android:inputType="phone" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_correo"
+                android:fontFamily="@font/acme"
+                android:textStyle="bold"
+                android:textSize="13dp"
+
+                android:layout_marginLeft="5dp"/>
+
+            <EditText
+                android:id="@+id/txtCorreo"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:textSize="13dp"
+                android:fontFamily="@font/acme"
+                android:background="@drawable/stylo_borde_editext"
+                android:hint="@string/hint_correo"
+                android:inputType="textEmailAddress" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textSize="13dp"
+                android:fontFamily="@font/acme"
+                android:textStyle="bold"
+                android:text="@string/txt_zonas" />
+
+            <Spinner
+                android:id="@+id/spZonas"
+                android:background="@drawable/stylo_borde_editext"
+                android:layout_width="wrap_content"
+                android:textSize="13dp"
+                android:fontFamily="@font/acme"
+                android:layout_height="55dp"
+                tools:ignore="SpeakableTextPresentCheck"/>
+        </TableRow>
+    </TableLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="11dp" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/btn_guardar"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:textSize="12dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+
+    <Button
+        android:id="@+id/btn_verArgricultores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="iraMostrarAgricultores"
+        android:text="@string/btn_listaAgricultores"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:textSize="12dp"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_registrarMercancia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAllCaps="false"
+        android:text="@string/btn_insertarMercancias"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:textSize="12dp" />
+
+</LinearLayout>
+
+</LinearLayout>

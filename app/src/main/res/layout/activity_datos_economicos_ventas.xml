@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ventas.datosEconomicosVentas"
+    android:background="@drawable/fondo_difuminado1"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/acme"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:text="@string/txt_FacturasTotalVentas"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/txtImporteTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/acme"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/acme"
+            android:textStyle="bold"
+            android:text="@string/txt_FacturasCliente"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/spinnerCliente"
+            android:layout_width="94dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/acme"
+            android:textStyle="bold"
+            android:background="@drawable/stylo_borde_editext"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_verResultados"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:fontFamily="@font/alegreya_sans_sc_black_italic"
+                android:onClick="realizados"
+                android:text="@string/btn_Ver" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

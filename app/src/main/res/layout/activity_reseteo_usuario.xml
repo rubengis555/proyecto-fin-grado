@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/fondoazuldifuminado"
+    tools:context=".registro.reseteoUsuario">
+
+
+    <ImageView
+        android:id="@+id/imagenReset"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:src="@drawable/reset" />
+
+    <TextView
+        android:id="@+id/textviewReseteo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagenReset"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:gravity="center"
+        android:text="@string/txt_Reseteo"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textviewRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewReseteo"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_nombreUsuario"
+        android:textSize="15dp"
+        />
+
+
+    <EditText
+        android:id="@+id/txtusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewRegistrarse"
+        android:layout_marginTop="15dp"
+        android:hint="usuario"
+        android:textSize="15dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btn_registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtusuario"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="@string/btn_reseteoContrasena"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="15dp" />
+</RelativeLayout>

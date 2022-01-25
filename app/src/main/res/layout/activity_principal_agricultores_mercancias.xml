@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/fondo_difuminado1"
+    tools:context=".mercancias.principalAgricultoresMercancias">
+
+
+    <ImageView
+        android:id="@+id/imagenAgricultor"
+        android:layout_width="wrap_content"
+        android:layout_height="121dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/mercancias" />
+
+    <Button
+        android:id="@+id/btn_nuevoAgricultor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagenAgricultor"
+        android:layout_marginTop="35dp"
+        android:layout_weight="1"
+        android:text="@string/btn_insertarAgricultores"
+        android:textAllCaps="false"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/btn_listaAgricultores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_nuevoAgricultor"
+        android:text="@string/btn_listaAgricultores"
+        android:textAllCaps="false"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textSize="12dp"
+         />
+
+    <Button
+        android:id="@+id/btn_nuevaMercancia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_listaAgricultores"
+        android:layout_weight="1"
+        android:text="@string/btn_insertarMercancias"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:textAllCaps="false"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/btn_listaMercancias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_below="@+id/btn_nuevaMercancia"
+        android:text="@string/btn_listaMercancias"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textAllCaps="false"
+        android:textSize="12dp"
+        />
+
+    <Button
+        android:id="@+id/btn_datosEconomicos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12dp"
+        android:text="@string/btn_datosEconomicos"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:layout_below="@+id/btn_listaMercancias"
+        android:textAllCaps="false"
+        />
+
+
+</RelativeLayout>

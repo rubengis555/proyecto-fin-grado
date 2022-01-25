@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyecto_cooperativa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_inicial"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_inicial"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proyecto_Cooperativa">
+        <activity
+            android:name=".registro.modificacionUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".registro.reseteoUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".ventas.principalClientesVentas"
+            android:exported="false"
+            android:parentActivityName=".MenuPrincipal" />
+        <activity
+            android:name=".mercancias.principalAgricultoresMercancias"
+            android:exported="false"
+            android:parentActivityName=".MenuPrincipal" />
+        <activity
+            android:name=".pantallaCargando"
+            android:exported="false"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".registro.loginUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".registro.registroUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".ventas.datosEconomicosVentas"
+            android:exported="false"
+            android:parentActivityName=".ventas.principalClientesVentas" />
+        <activity
+            android:name=".mercancias.datosEconomicosMercancias"
+            android:exported="false"
+            android:parentActivityName=".mercancias.principalAgricultoresMercancias" />
+        <activity
+            android:name=".zonasAgricolas.zonas_agricolas"
+            android:exported="false"
+            android:parentActivityName=".MenuPrincipal" />
+        <activity
+            android:name=".cliente.editarCliente"
+            android:exported="false"
+            android:parentActivityName=".cliente.mostrarClientes" />
+        <activity
+            android:name=".cliente.detalleCliente"
+            android:exported="false"
+            android:parentActivityName=".cliente.mostrarClientes" />
+        <activity
+            android:name=".cliente.mostrarClientes"
+            android:exported="false"
+            android:parentActivityName=".ventas.principalClientesVentas" />
+        <activity
+            android:name=".ventas.editarVenta"
+            android:exported="false"
+            android:parentActivityName=".ventas.mostrarVentas" />
+        <activity
+            android:name=".ventas.detalleVenta"
+            android:exported="false"
+            android:parentActivityName=".ventas.mostrarVentas" />
+        <activity
+            android:name=".ventas.mostrarVentas"
+            android:exported="false"
+            android:parentActivityName=".ventas.principalClientesVentas" />
+        <activity
+            android:name=".ventas.nuevaVenta"
+            android:exported="false"
+            android:parentActivityName=".ventas.principalClientesVentas" />
+        <activity
+            android:name=".cliente.nuevoCliente"
+            android:exported="false"
+            android:parentActivityName=".ventas.principalClientesVentas" />
+        <activity
+            android:name=".mercancias.editarMercancia"
+            android:exported="false"
+            android:parentActivityName=".mercancias.mostrarMercancias" />
+        <activity
+            android:name=".mercancias.detalleMercancia"
+            android:exported="false"
+            android:parentActivityName=".mercancias.mostrarMercancias" />
+        <activity
+            android:name=".mercancias.mostrarMercancias"
+            android:exported="false"
+            android:parentActivityName=".mercancias.principalAgricultoresMercancias" />
+        <activity
+            android:name=".mercancias.nueva_mercancia"
+            android:exported="false"
+            android:parentActivityName=".mercancias.principalAgricultoresMercancias" />
+        <activity
+            android:name=".agricultor.editarAgricultor"
+            android:exported="false"
+            android:parentActivityName=".agricultor.mostrarAgricultores" />
+        <activity
+            android:name=".agricultor.detalleAgricultor"
+            android:exported="false"
+            android:parentActivityName=".agricultor.mostrarAgricultores" />
+        <activity
+            android:name=".agricultor.mostrarAgricultores"
+            android:exported="false"
+            android:parentActivityName=".mercancias.principalAgricultoresMercancias" />
+        <activity
+            android:name=".agricultor.NuevoAgricultor"
+            android:exported="false"
+            android:parentActivityName=".mercancias.principalAgricultoresMercancias" />
+        <activity
+            android:name=".MenuPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
